@@ -1,4 +1,4 @@
-package House;
+package David_Burger.House;
 // Pan / Class of the house
 public class House {
 
