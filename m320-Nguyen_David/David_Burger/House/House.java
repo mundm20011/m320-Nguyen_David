@@ -1,4 +1,4 @@
-package House;
+package David_Burger.House;
 // Pan / Class of the house
 public class House {
 
@@ -26,5 +26,4 @@ public class House {
     public void setFamilyName(String familyName) {
         this.familyName = familyName;
     }
-
 }
