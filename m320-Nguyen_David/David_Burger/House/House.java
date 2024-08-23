@@ -26,5 +26,4 @@ public class House {
     public void setFamilyName(String familyName) {
         this.familyName = familyName;
     }
-
 }
