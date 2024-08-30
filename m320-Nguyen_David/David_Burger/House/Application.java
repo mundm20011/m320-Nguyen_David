@@ -8,10 +8,10 @@ public class Application {
         House houseSmith = new House();
     }
 
-    String familyName = houseSmith.getFamilyName();
-        System.out.println(familyName);
+//     String familyName = houseSmith.getFamilyName();
+//         System.out.println(familyName);
         
-        System.out.println(houseSmith.getNumberOfRooms());
+//         System.out.println(houseSmith.getNumberOfRooms());
 }
 
 
