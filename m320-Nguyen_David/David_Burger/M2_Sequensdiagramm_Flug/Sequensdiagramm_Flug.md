@@ -1,0 +1,3 @@
+# Personenregistrierung & Flugbuchung
+
+Nachdem der Benutzer das Programm gestartet hat, muss er als erstes seinen Vor- und Nachnamen eingeben, dann werden ihm die verfügbaren Flüge angezeigt und er wird aufgefordert, einen Flug zu buchen, nachdem er den Flug gebucht hat, fragt ihn das Programm, ob er fertig ist oder ob er noch einen Flug buchen möchte, dann muss er alles von vorne machen, auch den Namen eingeben (wenn er eine andere Person buchen möchte), aber wenn er am Ende sagt, dass er fertig ist, dann werden alle Flüge noch einmal angezeigt und es wird angezeigt, welche Personen auf welchem Flug sind.
