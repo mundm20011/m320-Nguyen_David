@@ -7,6 +7,10 @@ public class Personen {
         this.name = name;
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getName() {
         return name;
     }

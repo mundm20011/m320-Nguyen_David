@@ -13,6 +13,10 @@ public class Goalie extends Spieler {
         System.out.println(" Er Wirft den Ball");
     }
 
+    
+    /** 
+     * @return double
+     */
     public double getKoerperGroesse() {
         return koerperGroesse;
     }

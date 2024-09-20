@@ -2,6 +2,10 @@ package David_Burger.House;
 
 public class Application {
     
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         System.out.println("hello java classes and objects");
         // we build a house of the family Smith

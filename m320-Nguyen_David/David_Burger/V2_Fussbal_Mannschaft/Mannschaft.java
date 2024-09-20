@@ -4,6 +4,10 @@ import java.util.ArrayList;
 public class Mannschaft {
     ArrayList<Spieler> newMannschaft = new ArrayList<Spieler>();
 
+    
+    /** 
+     * @param spieler
+     */
     //this part inside class Mannschaft
     public void addSpielerToMannschaft(Spieler spieler) {
         newMannschaft.add(spieler);

@@ -10,6 +10,10 @@ public class Schueler extends Personen {
         this.sozialarbeiterName = sozialarbeiterName;
     }
 
+    
+    /** 
+     * @return String[]
+     */
     public String[] getLehrerName() {
         return lehrerName;
     }

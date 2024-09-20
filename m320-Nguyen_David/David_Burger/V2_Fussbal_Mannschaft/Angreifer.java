@@ -9,6 +9,10 @@ public class Angreifer extends Spieler {
         System.out.println("test");
     }
 
+    
+    /** 
+     * @return String
+     */
     @Override
     public String toString() {
         return "Angreifer: " + zeigeName();

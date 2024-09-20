@@ -10,6 +10,10 @@ public class Apprentice extends Human{
 		
 	}
 
+    
+    /** 
+     * @return String
+     */
     public String getTopic() {
         return topic;
     }

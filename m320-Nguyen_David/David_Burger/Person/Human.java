@@ -11,6 +11,10 @@ public class Human {
 		
 	}
 
+    
+    /** 
+     * @return String
+     */
     public String getName() {
         return name;
     }

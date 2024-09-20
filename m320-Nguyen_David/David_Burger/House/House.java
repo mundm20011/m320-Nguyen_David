@@ -18,6 +18,10 @@ public class House {
         price = 0.0;
     }
 
+    
+    /** 
+     * @return String
+     */
     // getter and setter here
     public String getFamilyName() {
         return familyName;

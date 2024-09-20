@@ -11,6 +11,10 @@ public class Sekratarin extends Personen {
         this.lehrerName = lehrerName;
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getDirektorName() {
         return direktorName;
     }

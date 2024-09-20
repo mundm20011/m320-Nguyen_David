@@ -23,6 +23,10 @@ public class Heizung {
         };
     }
 
+    
+    /** 
+     * @return int
+     */
     public int getTemperature() {
         return temperature;
     }

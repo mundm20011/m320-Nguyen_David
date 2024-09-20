@@ -1,6 +1,10 @@
 package David_Burger.V2_Fussbal_Mannschaft;
 
 public class Main {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         Goalie onlyGoalie = new Goalie(15.8, "Harald");
         Goalie imposterGoalie = new Goalie(5.24, "Tim");

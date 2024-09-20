@@ -9,6 +9,10 @@ public class Person {
         System.out.println (" Vorname : ␣ ␣" + vorname );    
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getName() {
         return name;
     }

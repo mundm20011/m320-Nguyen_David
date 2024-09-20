@@ -7,6 +7,10 @@ public class Spieler {
         this.name = name;
     }
 
+    
+    /** 
+     * @return String
+     */
     public String zeigeName() {
         return name;
     }

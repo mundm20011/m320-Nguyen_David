@@ -23,15 +23,27 @@ public class Flug {
         }
     }
 
+    
+    /** 
+     * @param passagier
+     */
     public void addPassagier(Passagier passagier) {
         passagiere.add(passagier);
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getStart() {
         return start;
     }
 
 
+    
+    /** 
+     * @param start
+     */
     public void setStart(String start) {
         this.start = start;
     }

@@ -7,6 +7,10 @@ public class Passagier {
         System.out.println(name);
     }
 
+    
+    /** 
+     * @param name
+     */
     public void setName(String name) {
         this.name = name;
     }

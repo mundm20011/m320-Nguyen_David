@@ -5,6 +5,10 @@ public class Student extends Person {
     public void printMatrikelnummer () {
         System.out.println (" Matrikelnummer : ␣ " + matrikelnummer );
     }
+    
+    /** 
+     * @return String
+     */
     public String getMatrikelnummer() {
         return matrikelnummer;
     }

@@ -1,6 +1,10 @@
 package David_Burger.D1_Heizung;
 
 public class Main {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         Heizung heizungTest = new Heizung();
 

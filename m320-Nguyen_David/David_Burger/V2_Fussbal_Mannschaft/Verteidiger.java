@@ -9,6 +9,10 @@ public class Verteidiger extends Spieler {
         System.out.println(" Er Nimmt den Ball");
     }
 
+    
+    /** 
+     * @return String
+     */
     @Override
     public String toString() {
         return "Verteidiger: " + zeigeName();

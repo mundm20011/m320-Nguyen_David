@@ -1,6 +1,10 @@
 package David_Burger.V1_Hirachie;
 
 public class Main {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         Direktor firstDirektor = new Direktor("Abraham Lincoln");
         Direktor secondDirektor = new Direktor("Trump Wall");
