@@ -3,7 +3,15 @@ package David_Burger.D2_Flug;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 
+ * @author David Burger
+ */
+
 public class Flug {
+    /**
+     * This is a class for adding diffrent flys
+     */
     List<Passagier> passagiere = new ArrayList<Passagier>();
     String start;
     String ende;
