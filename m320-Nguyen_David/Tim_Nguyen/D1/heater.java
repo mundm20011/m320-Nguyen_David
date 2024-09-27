@@ -6,6 +6,7 @@ public class Heater {
     private int max;
     private int increment;
 
+
     public Heater(int temperature, int increment, int min, int max) {
         setTemperature(temperature);
         setIncrement(increment);
