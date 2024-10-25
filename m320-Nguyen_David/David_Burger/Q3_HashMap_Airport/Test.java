@@ -4,16 +4,17 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.List;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Map;
 import java.util.HashMap;
+
+import static Q3_HashMap_Airport.lib.Input.*;
 
 public class Test {
     public static void main(String[] args) throws Exception {
         FileReader fileReader = new FileReader(
                 "C:\\Users\\burge\\Documents\\TBZ\\Fachkunde\\Module\\m320\\m320-Nguyen_David\\David_Burger\\Q3_HashMap_Airport\\airports.csv");
         BufferedReader reader = new BufferedReader(fileReader);
-        Map<String, String> map = new HashMap<String, String>();
+        Map<String, String> airportMap = new HashMap<String, String>();
 
         List<String[]> allRows = new ArrayList<>();
         String line;
@@ -22,29 +23,26 @@ public class Test {
             String[] row = line.split(",");
             String temp1 = row[0];
             String temp2 = row[1];
-            map.put(temp1, temp2);
+            airportMap.put(temp1, temp2);
             allRows.add(row);
         }
 
         reader.close();
+        
+        String specificAirport = inputString("Suchst du ein bestimmten Flughafen? Ja/Nein: ");
 
-        System.out.println("Print row");
-        // for (String[] row : allRows) {
-        //     System.out.println(Arrays.toString(row));
-        // }
+        specificAirport = specificAirport.toLowerCase();
 
-        for (Map.Entry m : map.entrySet()) {
-            System.out.println(m.getKey() + " " + m.getValue());
+        if (specificAirport.equals("ja")) {
+            String airportKey = inputString("Bitte geben sie den Flughafen Code ein: ");
+            airportKey = airportKey.toUpperCase();
+
+            System.out.println(airportMap.get(airportKey));
+        } else {
+            for (Map.Entry m : airportMap.entrySet()) {
+                System.out.println(m.getKey() + " " + m.getValue());
+            }
         }
+
     }
 }
-
-// public static void main(String args[]){
-// Map<Integer,String> map=new HashMap<Integer,String>();
-// map.put(100,"Amit");
-// map.put(101,"Vijay");
-// map.put(102,"Rahul");
-// //Elements can traverse in any order
-// for(Map.Entry m:map.entrySet()){
-// System.out.println(m.getKey()+" "+m.getValue());
-// }
