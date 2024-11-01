@@ -1,0 +1,1 @@
+Das Ziel hier ist Delegation lernen und anzuwenden
